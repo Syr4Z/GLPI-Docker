@@ -11,6 +11,8 @@ GLPI can also be used as ITIL service desk features.
 This image is a basis for deploying a glpi instance via Docker.
 It has been designed to run on unprivileged environments such as Kubernetes.
 
+> N.B.: This image supports adding a custom CA certificates. To do this, add your certificates in the files/ca folder
+
 ## How to Deploy
 Load the database dump on your Maria db server.
 ```
